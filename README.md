@@ -53,9 +53,9 @@ message: {
 
 # FireStore rules
 The DB data is presented as 2 simple counters and admin message that accessed by 3 types of users.
-# user
-# moderator
-# admin
+- user
+- moderator
+- admin
 User has acces to "user's counter", Moderator to both counters, Admin - both counters and message + can assign roles.
 When admin assignes roles FireStore function checks for custom user claims with FireAuth (serverside), therefore no simple user can call this function from frontend.
 
