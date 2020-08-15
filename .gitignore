@@ -48,8 +48,6 @@ typings/
 # Optional npm cache directory
 .npm
 
-plugins/
-
 # Optional eslint cache
 .eslintcache
 
@@ -72,12 +70,10 @@ plugins/
 .next
 
 # nuxt.js build output
-.nuxt
+.nuxt/
 
 # Nuxt generate
 dist
-
-.editorconfig
 
 # vuepress build output
 .vuepress/dist
