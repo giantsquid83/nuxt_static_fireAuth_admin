@@ -50,7 +50,7 @@ service cloud.firestore {
       allow read;
     }
 		//	allow users change user's counter
-    match /AllNumbers/{enterFixedIdHere} {
+    match /AllNumbers/enterFixedIdOfUserCounterHere {
     	allow write: if request.auth.uid != null;
     }
     // allow admin & moderator change all counters
