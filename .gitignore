@@ -70,7 +70,9 @@ typings/
 .next
 
 # nuxt.js build output
-.nuxt/
+.nuxt
+
+/layouts
 
 # Nuxt generate
 dist
