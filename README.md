@@ -34,6 +34,23 @@ $ firebase deploy --only functions
 # Please enter own firebase config to nuxt.config.js
 in this example nuxt.config.js gets firebase config stored in firebaseConfig.js
 
+# FireStore structure:
+```bash
+AllNumbers : {
+  docId: {
+    userNumber: 0
+  },
+  docId2: {
+    modNumber: 0
+  }
+},
+message: {
+  docId: {
+    text: 'string'
+  }
+}
+```
+
 # FireStore rules
 The DB data is presented as 2 simple counters and admin message that accessed by 3 types of users.
 # user
