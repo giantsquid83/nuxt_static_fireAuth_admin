@@ -1,8 +1,10 @@
 # This is a basic static generated NUXT APP with user\moderator\admin rights
-# with vuetify as gui framework
-# and Firebase for db and authorization
+# With vuetify as gui framework
+# And Firebase for db and authorization
 FireAuth with deployed FireFunctions handles assigning and checking for user's custom claims such as Admin and Moderator
 wich gives different access rights to control the App from frontend.
+#
+**to use FireFunctions Blaze plan must be enabled in Firestore console**
 
 ## Build Setup
 
@@ -32,7 +34,8 @@ $ firebase deploy --only functions
 
 ```
 # Please enter own firebase config to nuxt.config.js
-in this example nuxt.config.js gets firebase config stored in firebaseConfig.js
+**can be generated at console.firebase.google.com after creating a project with webApp**
+in this example nuxt.config.js refers to firebaseConfig.js stored in root folder
 
 # FireStore structure:
 ```bash
