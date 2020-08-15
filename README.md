@@ -1,9 +1,8 @@
 # This is a basic static generated NUXT APP
 # with vuetify as gui framework
 # and Firebase for db and authorization
-# FireAuth with deployed FireFunctions handles assigning and checking 
-# for user's custom claims such as Admin and Moderator
-# wich gives different access rights to control the App from frontend.
+FireAuth with deployed FireFunctions handles assigning and checking for user's custom claims such as Admin and Moderator
+wich gives different access rights to control the App from frontend.
 
 ## Build Setup
 
