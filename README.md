@@ -1,4 +1,4 @@
-# This is a basic static generated NUXT APP
+# This is a basic static generated NUXT APP with user\moderator\admin rights
 # with vuetify as gui framework
 # and Firebase for db and authorization
 FireAuth with deployed FireFunctions handles assigning and checking for user's custom claims such as Admin and Moderator
