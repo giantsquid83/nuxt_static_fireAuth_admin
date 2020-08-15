@@ -33,6 +33,11 @@ $ firebase deploy --only functions
 
 ```
 # FireStore rules
+# the data is presented as simple counters that accessed by 3 types of users
+user
+moderator
+admin
+
 ```bash
 rules_version = '2';
 service cloud.firestore {
