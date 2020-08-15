@@ -1,0 +1,16 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "D:\\\\Code\\\\web pages\\\\VUE\\\\nuxt fireAuth Admin. FireStore (STATIC) finished\\\\pages\\\\admin.vue",
+    "chunkName": "pages/admin",
+    "_name": "_fc83bf10"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Code\\\\web pages\\\\VUE\\\\nuxt fireAuth Admin. FireStore (STATIC) finished\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_504ecc7b"
+  }
+]

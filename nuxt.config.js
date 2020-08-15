@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import fbConfig from './firebaseConfig.js'
 
 export default {
   /*
@@ -59,15 +60,7 @@ export default {
    */
   modules: ['@nuxtjs/firebase'],
   firebase: {
-    config: {
-      apiKey: 'AIzaSyCK2PcIZuv7CSTyumyroIoAFOUzyS2AuDM',
-      authDomain: 'nuxt-firebase-admin-dev.firebaseapp.com',
-      databaseURL: 'https://nuxt-firebase-admin-dev.firebaseio.com',
-      projectId: 'nuxt-firebase-admin-dev',
-      storageBucket: 'nuxt-firebase-admin-dev.appspot.com',
-      messagingSenderId: '724541760097',
-      appId: '1:724541760097:web:a358ad598af889aea38020',
-    },
+    config: fbConfig,
     services: {
       firestore: true,
       functions: true,

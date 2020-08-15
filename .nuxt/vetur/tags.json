@@ -1,0 +1,32 @@
+{
+  "AppHeader": {
+    "description": "Auto imported from components/appHeader.vue"
+  },
+  "LazyAppHeader": {
+    "description": "Auto imported from components/appHeader.vue"
+  },
+  "Message": {
+    "description": "Auto imported from components/message.vue"
+  },
+  "LazyMessage": {
+    "description": "Auto imported from components/message.vue"
+  },
+  "ModCounter": {
+    "description": "Auto imported from components/ModCounter.vue"
+  },
+  "LazyModCounter": {
+    "description": "Auto imported from components/ModCounter.vue"
+  },
+  "UserCounter": {
+    "description": "Auto imported from components/UserCounter.vue"
+  },
+  "LazyUserCounter": {
+    "description": "Auto imported from components/UserCounter.vue"
+  },
+  "UserForm": {
+    "description": "Auto imported from components/UserForm.vue"
+  },
+  "LazyUserForm": {
+    "description": "Auto imported from components/UserForm.vue"
+  }
+}
