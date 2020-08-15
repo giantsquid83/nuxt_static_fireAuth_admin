@@ -35,7 +35,7 @@ $ firebase deploy --only functions
 ```
 # Please enter own firebase config to nuxt.config.js
 **can be generated at [firebase console](https://console.firebase.google.com/) after creating a project with webApp**
-in this example nuxt.config.js refers to firebaseConfig.js stored in root folder
+###in this example nuxt.config.js refers to firebaseConfig.js stored in root folder
 
 # FireStore structure:
 ```bash
